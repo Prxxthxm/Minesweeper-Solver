@@ -26,7 +26,7 @@ def read_grid():
 
 def click_cell(i, j):
     if(grid[i][j] != '?'): print(f"Click all unflagged neighbours of cell ({i + 1}, {j + 1}) and enter the updated grid: ")    
-    else print(f"Click cell ({i + 1}, {j + 1}) and enter the updated grid: ") 
+    else: print(f"Click cell ({i + 1}, {j + 1}) and enter the updated grid: ") 
     read_grid()
 
 def flag_cell(i, j):
